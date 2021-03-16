@@ -1,0 +1,45 @@
+.cartitem {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    gap: 8px;
+    background: #fff;
+    border-radius: 2px;
+    place-items: center;
+}
+
+.cartitem__image img {
+    width: 100px;
+    height: 100px;
+}
+
+.cartitem_name {
+    text-decoration: none;
+    color: #171717;
+}
+
+.cartitem_name:hover {
+    color: #dd219e;
+}
+
+.cartitem__select {
+    padding: 10px 16px;
+}
+
+.cartitem__deteteBtn {
+    padding: 10px 16px;
+    color: red;
+    background: #f4f4f4;
+    border: 1px solid #171717;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.cartitem__deteteBtn:hover,
+.cartitem__deteteBtn:focus,
+.cartitem__deteteBtn:active {
+    background: #171717;
+    transform: scale(1.2);
+}
